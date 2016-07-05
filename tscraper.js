@@ -1,5 +1,4 @@
 'use strict';
-const fs        = require('fs');
 const cheerio   = require('cheerio');
 const request   = require('request');
 
@@ -7,7 +6,7 @@ const twitterUsername = process.argv[2];
 
 if (twitterUsername) {
 
-  const twitterUrl = 'http://twitter.com/' + twitterUsername;
+  const twitterUrl = 'https://twitter.com/' + twitterUsername;
   
   request(twitterUrl, function(error, response, html) {
 
