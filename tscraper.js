@@ -2,9 +2,7 @@
 const cheerio   = require('cheerio');
 const request   = require('request');
 
-const twitterUsername = process.argv[2];
-
-if (twitterUsername) {
+const tscraper = function (twitterUsername) {
 
   const twitterUrl = 'https://twitter.com/' + twitterUsername;
   
@@ -39,4 +37,8 @@ if (twitterUsername) {
       console.log(userData);
     }
   });
-} else throw "No username was given";
+}
+
+module.exports = {
+  tscraper
+}
