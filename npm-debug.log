@@ -15,22 +15,22 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/akka/dev/github/twitter-scraper',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/akka/.npm/twitter-scraper/0.0.2/package.tgz not in flight; packing
+8 verbose addLocalDirectory /Users/akka/.npm/twitter-scraper/0.0.3/package.tgz not in flight; packing
 9 verbose correctMkdir /Users/akka/.npm correctMkdir not in flight; initializing
-10 info lifecycle twitter-scraper@0.0.2~prepublish: twitter-scraper@0.0.2
-11 silly lifecycle twitter-scraper@0.0.2~prepublish: no script for prepublish, continuing
-12 verbose tar pack [ '/Users/akka/.npm/twitter-scraper/0.0.2/package.tgz',
+10 info lifecycle twitter-scraper@0.0.3~prepublish: twitter-scraper@0.0.3
+11 silly lifecycle twitter-scraper@0.0.3~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/akka/.npm/twitter-scraper/0.0.3/package.tgz',
 12 verbose tar pack   '/Users/akka/dev/github/twitter-scraper' ]
-13 verbose tarball /Users/akka/.npm/twitter-scraper/0.0.2/package.tgz
+13 verbose tarball /Users/akka/.npm/twitter-scraper/0.0.3/package.tgz
 14 verbose folder /Users/akka/dev/github/twitter-scraper
-15 verbose addLocalTarball adding from inside cache /Users/akka/.npm/twitter-scraper/0.0.2/package.tgz
+15 verbose addLocalTarball adding from inside cache /Users/akka/.npm/twitter-scraper/0.0.3/package.tgz
 16 verbose correctMkdir /Users/akka/.npm correctMkdir not in flight; initializing
-17 silly cache afterAdd twitter-scraper@0.0.2
-18 verbose afterAdd /Users/akka/.npm/twitter-scraper/0.0.2/package/package.json not in flight; writing
+17 silly cache afterAdd twitter-scraper@0.0.3
+18 verbose afterAdd /Users/akka/.npm/twitter-scraper/0.0.3/package/package.json not in flight; writing
 19 verbose correctMkdir /Users/akka/.npm correctMkdir not in flight; initializing
-20 verbose afterAdd /Users/akka/.npm/twitter-scraper/0.0.2/package/package.json written
+20 verbose afterAdd /Users/akka/.npm/twitter-scraper/0.0.3/package/package.json written
 21 silly publish { name: 'twitter-scraper',
-21 silly publish   version: '0.0.2',
+21 silly publish   version: '0.0.3',
 21 silly publish   description: 'Scrape user details from Twitter Accounts without using Twitter api',
 21 silly publish   main: 'tscraper.js',
 21 silly publish   author:
@@ -46,14 +46,14 @@
 21 silly publish   keywords: [ 'twitter-scraper', 'twitter', 'Scrape', 'twitter api' ],
 21 silly publish   preferGlobal: 'true',
 21 silly publish   dependencies: { request: 'latest', cheerio: 'latest' },
-21 silly publish   readme: 'Node Twitter Scraper\n===================\n\nUse this tool to scrape information for any given twitter account (without using the Twitter API).\n\n# Installation\n```\n$ npm install\n```\n# Usage\n```\n$ node tscraper.js <twitter_username>\n```\n#Example\n```\n$ node tscraper.js meakaakka\n```\n```javascript\n{ name: \'Akash Nimare\',\n  username: \'@meakaakka\',\n  bio: \'Undergrad Student @ NIT Surat | S15 @HackerRank | Currently working with @zulip |  FOSS\',\n  join_date: \'March 2011\',\n  tweets: \'852\',\n  following: \'794\',\n  followers: \'224\',\n  likes: \'343\' }\n```\n\n',
+21 silly publish   readme: 'Node Twitter Scraper\n===================\n\nUse this tool to scrape information for any given twitter account (without using the Twitter API).\n\n# Installation\n```\n$ npm install -g tscraper\n```\n# Usage\n```\n$ tscraper <twitter_username>\n```\n#Example\n```\n$ tscraper meakaakka\n```\n```javascript\n{ name: \'Akash Nimare\',\n  username: \'@meakaakka\',\n  bio: \'Undergrad Student @ NIT Surat | S15 @HackerRank | Currently working with @zulip |  FOSS\',\n  join_date: \'March 2011\',\n  tweets: \'852\',\n  following: \'794\',\n  followers: \'224\',\n  likes: \'343\' }\n```\n\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '7be13e40ea3042888cbfe7ef57eb098502f88052',
+21 silly publish   gitHead: '2a91b9f5a279a09de8285ee517085bfe3abe35d8',
 21 silly publish   bugs: { url: 'https://github.com/akashnimare/twitter-scraper/issues' },
 21 silly publish   homepage: 'https://github.com/akashnimare/twitter-scraper#readme',
-21 silly publish   _id: 'twitter-scraper@0.0.2',
+21 silly publish   _id: 'twitter-scraper@0.0.3',
 21 silly publish   scripts: {},
-21 silly publish   _shasum: '7fd9f4cdd7a630135c0f458b75f87ca4ad1f3779',
+21 silly publish   _shasum: '540ca100e0108e0c5888f71bfb32e3eea7f5ab9c',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name twitter-scraper
@@ -69,25 +69,25 @@
 26 silly mapToRegistry   type: 'tag' }
 27 silly mapToRegistry uri https://registry.npmjs.org/twitter-scraper
 28 verbose publish registryBase https://registry.npmjs.org/
-29 silly publish uploading /Users/akka/.npm/twitter-scraper/0.0.2/package.tgz
+29 silly publish uploading /Users/akka/.npm/twitter-scraper/0.0.3/package.tgz
 30 verbose request uri https://registry.npmjs.org/twitter-scraper
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 4:52:57 PM
+32 info attempt registry request try #1 at 4:57:51 PM
 33 verbose request using bearer token for auth
-34 verbose request id 13c86d8c18ae6055
+34 verbose request id f142eb99d6f8d06a
 35 http request PUT https://registry.npmjs.org/twitter-scraper
 36 http 403 https://registry.npmjs.org/twitter-scraper
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '109',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Fri, 09 Sep 2016 11:23:01 GMT',
+37 verbose headers   date: 'Fri, 09 Sep 2016 11:27:54 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+37 verbose headers   'x-served-by': 'cache-sin6924-SIN',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1473420180.885765,VS0,VE854',
+37 verbose headers   'x-timer': 'S1473420474.052177,VS0,VE885',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/akka/.npm/registry.npmjs.org/twitter-scraper on PUT
 39 error publish Failed PUT 403
