@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 'use strict';
-const cheerio   = require('cheerio');
-const request   = require('request');
+const cheerio= require('cheerio');
+const request= require('request');
 
 const tscraper = function (twitterUsername) {
 
@@ -38,6 +39,8 @@ const tscraper = function (twitterUsername) {
     }
   });
 }
+
+tscraper(process.argv[1]);
 
 module.exports = {
   tscraper
