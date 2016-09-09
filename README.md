@@ -5,15 +5,15 @@ Use this tool to scrape information for any given twitter account (without using
 
 # Installation
 ```
-$ npm install
+$ npm install -g tscraper
 ```
 # Usage
 ```
-$ node tscraper.js <twitter_username>
+$ tscraper <twitter_username>
 ```
 #Example
 ```
-$ node tscraper.js meakaakka
+$ tscraper meakaakka
 ```
 ```javascript
 { name: 'Akash Nimare',
