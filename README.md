@@ -26,5 +26,3 @@ $ node tscraper.js meakaakka
   likes: '343' }
 ```
 
-##TODO
-> Node module

@@ -5,7 +5,7 @@ const request   = require('request');
 const tscraper = function (twitterUsername) {
 
   const twitterUrl = 'https://twitter.com/' + twitterUsername;
-  
+
   request(twitterUrl, function(error, response, html) {
 
     if (!error) {
@@ -22,7 +22,7 @@ const tscraper = function (twitterUsername) {
       following   = $new.find('.ProfileNav-item--following .ProfileNav-value').first().text();
       followers   = $new.find('.ProfileNav-item--followers .ProfileNav-value').first().text();
       likes       = $new.find('.ProfileNav-item--favorites .ProfileNav-value').first().text();
-      
+
       const userData = {
         name: name,
         username: username,

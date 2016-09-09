@@ -1,9 +1,27 @@
 {
     "name"          : "twitter-scraper",
-    "version"       : "0.0.1",
-    "description"   : "Scrape user details from Twitter Accounts",
+    "version"       : "0.0.2",
+    "description"   : "Scrape user details from Twitter Accounts without using Twitter api",
     "main"          : "tscraper.js",
     "author"        : "akashnimare",
+    "license": "MIT",
+    "repository": "https://github.com/akashnimare/twitter-scraper",
+    "author": {
+      "name": "Akash Nimare",
+      "email": "svnitakash@gmail.com",
+      "url": "http://akashnimare.in"
+    },
+    "bin": "tscraper.js",
+    "files": [
+      "tscraper.js"
+    ],
+    "keywords": [
+      "twitter-scraper",
+      "twitter",
+      "Scrape",
+      "twitter api"
+    ],
+    "preferGlobal": "true",
     "dependencies"  : {
         "request"   : "latest",
         "cheerio"   : "latest"
