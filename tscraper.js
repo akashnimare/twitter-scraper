@@ -40,7 +40,7 @@ const tscraper = function (twitterUsername) {
   });
 }
 
-tscraper(process.argv[1]);
+tscraper(process.argv[2]);
 
 module.exports = {
   tscraper
